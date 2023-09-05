@@ -1,0 +1,160 @@
+body {
+  height: auto;
+  overflow-x: hidden;
+  background-color: #F0F0F0;
+}
+
+.navbar{
+  background-color: #3C486B;
+}
+
+.navbar a{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 23px;
+}
+
+.items {
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.items .wrapper-box {
+  width: 70%;
+  height: 40px;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.items span {
+  padding: 0 auto;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.items .num {
+  border-right: 2px solid rgba(0, 0, 0, 0.2);
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cart-item{
+  padding-top: 40px;
+}
+
+.cart-item .col-md-2{
+  font-weight: bold;
+}
+
+#cartPembayaran {
+  display: none;
+  padding-bottom: 40px;
+}
+
+.pembayaran {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pembayaran .col-3 {
+  flex: 1;
+  font-weight: bold;
+}
+
+.pembayaran .col-7 {
+  flex: 2;
+  text-align: end;
+}
+
+.pembayaran .subtotal{
+  font-weight: bold;
+}
+
+.pembayaran .col-3:last-child {
+  text-align: start;
+}
+
+hr {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.btn-struk {
+  width: 150px;
+  margin-right: 12px;
+}
+
+.modal-header{
+  display: block;
+  text-align: center;
+}
+
+.modal-header p{
+  margin-bottom: 0;
+}
+
+.modal-body p{
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-body span{
+  margin: 0;
+  padding: 0;
+  text-align: start;
+}
+
+.struk-produk{
+  padding: 10px 15px;
+}
+
+.struk-produk .row{
+  text-align: start;
+}
+
+.struk-produk .col-md-4{
+  font-weight: bold;
+}
+
+.struk-pembayaran{
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+.struk-pembayaran .col-md-8{
+  padding: 0;
+}
+
+.struk-pembayaran .col-md-8 p{
+  text-align: end;
+}
+
+.struk-pembayaran .col-md-4 p{
+  text-align: end;
+}
+
+#product .nama-produk{
+  color: #000;
+  font-size: 17px;
+  font-weight: bold
+}
+
+#product .row-product:not(:last-of-type){
+  margin-bottom: 40px;
+}
+
+#cartContainer .title{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 28px;
+}
+
